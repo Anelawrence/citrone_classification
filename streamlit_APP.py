@@ -4,10 +4,10 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/LAWRENCE/Desktop/SGA_1.3/PROJECTS_Folder/citrone_classification_project/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # loading the scaler object
-scaler = pickle.load(open('C:/Users/LAWRENCE/Desktop/SGA_1.3/PROJECTS_Folder/citrone_classification_project/scaler_object.sav', 'rb'))
+scaler = pickle.load(open('scaler_object.sav', 'rb')) # C:/Users/LAWRENCE/Desktop/SGA_1.3/PROJECTS_Folder/citrone_classification_project/
 
 
 def predict_eligibility(input_values):
