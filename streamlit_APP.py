@@ -7,7 +7,7 @@ import streamlit as st
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # loading the scaler object
-scaler = pickle.load(open('scaler_object.sav', 'rb')) # C:/Users/LAWRENCE/Desktop/SGA_1.3/PROJECTS_Folder/citrone_classification_project/
+scaler = pickle.load(open('scaler_object.sav', 'rb')) # C:/Users/LAWRENCE/Desktop/SGA_1.3/PROJECTS_Folder/
 
 
 def predict_eligibility(input_values):
