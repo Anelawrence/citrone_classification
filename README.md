@@ -19,5 +19,5 @@ The tools used in this project includes python libraries like:
 - Streamlit
 
 ## Student Eligibilty Prediction App
-https://anelawrence-citrone-classification-streamlit-app-fnilev.streamlit.app/
+App Link: https://anelawrence-citrone-classification-streamlit-app-fnilev.streamlit.app/
 ![Intermediate_class_eligibility](Intermediate_class_eligibility.PNG)
